@@ -4,17 +4,18 @@ The primary objective of this project is to accurately forecast future life expe
 
 
 <h2>Description</h2>
-This project involves a detailed examination of Uber pick-up data across different timescales—monthly, weekly, and hourly. By analyzing data from various New York City bases, the project aims to identify demand trends and their implications for Uber's service strategies. Key focus areas include assessing monthly demand fluctuations, weekday and hourly pick-up patterns, and the distribution of active vehicles across Uber bases. The insights derived will guide Uber in enhancing resource allocation, adjusting surge pricing, and improving overall customer satisfaction.
+This project aims to forecast future life expectancy trends by employing two prominent time series forecasting techniques: Exponential Smoothing and ARIMA (AutoRegressive Integrated Moving Average) models. Leveraging historical life expectancy data, the project seeks to develop accurate and reliable predictive models capable of capturing the underlying patterns and trends in life expectancy.
 
 
 <h2>Skills</h2>
 
-- Data cleaning and preprocessing to prepare Uber datasets for analysis.
+- Data Collection and Preprocessing
 - Advanced data visualization to represent complex relationships in the data.
-- Statistical analysis to identify significant trends and anomalies.
-- Temporal data analysis for understanding patterns over different times of day and days of the week.
-- Geographic data analysis to pinpoint high-demand areas.
-- Hypothesis testing to validate observed patterns and their significance.
+- Model Development:
+- <b>Exponential Smoothing: Various exponential smoothing methods, such as Simple Exponential Smoothing, Holt’s Linear Trend Model, and Holt-Winters Seasonal Model, will be implemented and fine-tuned. These models are well-suited for capturing underlying trends and seasonal variations in time series data.</b>
+- <b>ARIMA Models: AutoRegressive Integrated Moving Average (ARIMA) models will be developed to capture the linear dependencies and temporal structure of the life expectancy data. The ARIMA framework involves identifying the appropriate orders of autoregressive (AR), differencing (I), and moving average (MA) components.</b>
+- Model Evaluation: The performance of both Exponential Smoothing and ARIMA models will be rigorously evaluated using appropriate metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and forecast accuracy measures. This evaluation will provide insights into the effectiveness of each modeling approach in forecasting life expectancy.
+- Forecasting and Interpretation: Using the developed models, future life expectancy trends will be forecasted for the desired time horizon. These forecasts will be interpreted to provide actionable insights and recommendations for policymakers, healthcare professionals, and stakeholders involved in public health initiatives.
 
 <h2>Technology</h2>
 
@@ -22,15 +23,8 @@ This project involves a detailed examination of Uber pick-up data across differe
 - <b>Pandas</b>
 - <b>Seaborn</b> 
 - <b>Matplotlib</b>
-- <b>Plotly</b>
-- <b>Folium</b>
+
 
 
 <h2>Results</h2>
-The exploratory data analysis of the Uber dataset yielded significant insights into riding patterns and demand cycles in New York City, emphasizing the importance of strategic resource management:
-
-- <b>Monthly Trends:</b> June was identified as the peak month for Uber pickups, likely due to seasonal activities and tourist influx, indicating the need for increased fleet availability during this period.
-- <b>Weekly and Daily Patterns:</b> Analysis revealed that Fridays and Saturdays consistently experience higher demand, especially during evening hours. This trend underscores the importance of strategically increasing fleet availability on these days to accommodate nightlife and recreational travel.
-- <b>Hourly Fluctuations:</b> There is a clear distinction in hourly demand between weekdays and weekends. Peak hours during weekdays are typically during morning and evening rush hours, while weekends show a spread in high demand across the evening. This necessitates different operational strategies for weekdays versus weekends.
-- <b>Geographic Insights:</b> Midtown Manhattan emerged as a critical hotspot for pickups, with significant activity extending to Lower and Upper Manhattan and parts of Brooklyn. These insights can guide targeted marketing and real-time dynamic pricing strategies.
-- <b>Fleet Distribution:</b> The base with the most active vehicles was identified, providing an opportunity to optimize vehicle deployment across less active but high-demand areas to balance supply and enhance service responsiveness.
+Using the developed models, we generated life expectancy forecasts for the next 8 years for various countries. These forecasts revealed a continued improvement in life expectancy, reflecting ongoing advancements in healthcare, nutrition, and living conditions. The forecasts offer valuable insights that can inform policy and planning at national and international levels
