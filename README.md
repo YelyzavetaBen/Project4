@@ -27,4 +27,4 @@ This project aims to forecast future life expectancy trends by employing two pro
 
 
 <h2>Results</h2>
-Using the developed models, we generated life expectancy forecasts for the next 8 years for various countries. These forecasts revealed a continued improvement in life expectancy, reflecting ongoing advancements in healthcare, nutrition, and living conditions. The forecasts offer valuable insights that can inform policy and planning at national and international levels
+Using the developed models, we generated life expectancy forecasts for the next 8 years for various countries. These forecasts revealed a continued improvement in life expectancy, reflecting ongoing advancements in healthcare, nutrition, and living conditions. The forecasts offer valuable insights that can inform policy and planning at national and international levels.
