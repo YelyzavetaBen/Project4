@@ -12,8 +12,8 @@ This project aims to forecast future life expectancy trends by employing two pro
 - Data Collection and Preprocessing
 - Advanced data visualization to represent complex relationships in the data.
 - Model Development:
-- <b>Exponential Smoothing: Various exponential smoothing methods, such as Simple Exponential Smoothing, Holt’s Linear Trend Model, and Holt-Winters Seasonal Model, will be implemented and fine-tuned. These models are well-suited for capturing underlying trends and seasonal variations in time series data.</b>
-- <b>ARIMA Models: AutoRegressive Integrated Moving Average (ARIMA) models will be developed to capture the linear dependencies and temporal structure of the life expectancy data. The ARIMA framework involves identifying the appropriate orders of autoregressive (AR), differencing (I), and moving average (MA) components.</b>
+- Exponential Smoothing: Various exponential smoothing methods, such as Simple Exponential Smoothing, Holt’s Linear Trend Model, and Holt-Winters Seasonal Model, will be implemented and fine-tuned. These models are well-suited for capturing underlying trends and seasonal variations in time series data.
+- ARIMA Models: AutoRegressive Integrated Moving Average (ARIMA) models will be developed to capture the linear dependencies and temporal structure of the life expectancy data. The ARIMA framework involves identifying the appropriate orders of autoregressive (AR), differencing (I), and moving average (MA) components.
 - Model Evaluation: The performance of both Exponential Smoothing and ARIMA models will be rigorously evaluated using appropriate metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and forecast accuracy measures. This evaluation will provide insights into the effectiveness of each modeling approach in forecasting life expectancy.
 - Forecasting and Interpretation: Using the developed models, future life expectancy trends will be forecasted for the desired time horizon. These forecasts will be interpreted to provide actionable insights and recommendations for policymakers, healthcare professionals, and stakeholders involved in public health initiatives.
 
